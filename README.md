@@ -9,21 +9,23 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="Etapes de réalisation">Préparer les M5</a>
+      <a href="#m5-stack">M5 Stack</a>
       <ul>
-        <li><a href="#built-with">Capteur de présence</a></li>
-		<li><a href="#built-with">Capteur de lumière</a></li>
-		<li><a href="#built-with">Capteur de couleur</a></li>
+        <li><a href="#capteur-de-présence">Capteur de présence</a></li>
+		<li><a href="#capteur-de-lumière">Capteur de lumière</a></li>
+		<li><a href="#capteur-de-couleur">Capteur de couleur</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Préparer le broker</a>
+      <a href="#broker">Broker</a>
       <ul>
-        <li><a href="#prerequisites">Serveur HTTP</a></li>
-        <li><a href="#installation">Bot Telegram</a></li>
-		<li><a href="#installation">Serveur UDP</a></li>
+        <li><a href="#serveur-http">Serveur HTTP</a></li>
+        <li><a href="#bot-telegram">Bot Telegram</a></li>
+		<li><a href="#serveur-udp">Serveur UDP</a></li>
       </ul>
     </li>
+    <li><a href="#log-management">Log Management</a></li>
+    <li><a href="#packet-tracer">Packet Tracer</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -32,7 +34,7 @@
 
 # **Le projet:**
 
-## 1. Préparer les M5
+## M5 Stack
 ___
 - ### Capteur de présence:
 	- A chaque changement d'état, le capteur envoie l'information +
@@ -46,7 +48,7 @@ ___
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 2. Préparer le broker
+## Broker
 ___
 ### Serveur HTTP:
 - Permettre l'affichage des logs de présence et de l'état de la lumière. 
@@ -67,18 +69,27 @@ pour gérer la couleur créer une commande /couleur
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 3. Capteur packet:
+## Packet Tracer
 ___
-Pour rester dans le thème système IOT domotique:
+### Pour rester dans le thème système IOT domotique:
 - lumières à allumer éteindre + changer de couleur
 - télévision à controller
 - porte de garage
 - etc... (*Le tout doit etre pilotable sur le frontend web et depuis telegram*)
 
 
+## Log Management
+___
+### Afin de gérer les logs:
+ - Installation de mongodb-org
+ - Installation de OpenSearch
+ - Installation de GrayLog pour le log management
+
+ - *Les logs doivent comprendre **tous** les changements d'états*
+
+
 <!-- CONTACT -->
 # Contact
-___
 Mathis Bourinet - mathis.bourinet@hes-so.ch
 
 Kenan Henzelin - kenan.henzelin@hes-so.ch
