@@ -2,7 +2,7 @@
 
 
 
-<a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/Takeapill/IOT"><strong>Explore the docs »</strong></a>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -35,7 +35,6 @@
 # **Le projet:**
 
 ## M5 Stack
-___
 - ### Capteur de présence:
 	- A chaque changement d'état, le capteur envoie l'information +
 	- *Activer une alarme lorsqu'une présence est detecté*
@@ -49,7 +48,6 @@ ___
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Broker
-___
 ### Serveur HTTP:
 - Permettre l'affichage des logs de présence et de l'état de la lumière. 
 - Gérer la lumière (couleur, allumé/éteint)
@@ -70,7 +68,6 @@ pour gérer la couleur créer une commande /couleur
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Packet Tracer
-___
 ### Pour rester dans le thème système IOT domotique:
 - lumières à allumer éteindre + changer de couleur
 - télévision à controller
@@ -79,7 +76,6 @@ ___
 
 
 ## Log Management
-___
 ### Afin de gérer les logs:
  - Installation de mongodb-org
  - Installation de OpenSearch
